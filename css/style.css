@@ -107,11 +107,11 @@ background-color: #97d0a3;
 .four{
 background-color: #f0f0f0;
 }
-.secfourtop{
+.secfivetop{
 background-color: #e8eae9;
 text-align: center;
 }
-.secfourbtm{
+.secfivebtm{
   background-color: #fbffff;
 }
 /* End white Div section four */
@@ -120,9 +120,30 @@ text-align: center;
 background-color:#dfb4c5;
 }
 /* End pink Div section five */
+/* Start of lightblue div container  */
 .six{
 background-color:#b5d5e2;
 }
+.sectionsixtop{
+  background-color: #e8eae9;
+  text-align:center;
+}
+.sectionsixbtm{
+  background-color: #fbffff;
+  text-align: center;
+}
+.secsixbtn{
+  text-align: center;
+  /* TODO: Give the button a border-radius to make a bit more rounded. Accidently added it to the Div. */
+  border-radius: 10%;
+}
+/* End of Lightblue div container */
+/* Start of final Div color black  */
 .seven{
 background-color:#3b3b3b;
 }
+/* End of final black div */
+/* Start of footer */
+
+
+/* End of the footer of the page */
