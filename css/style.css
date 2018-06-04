@@ -77,10 +77,6 @@ padding: 10px;
 div.container.three{
   height: auto;
 }
-div.col-4{
-  height: auto;
-  width: 150px;
-}
 .three{
 background-color: #97d0a3;
 }
@@ -107,12 +103,23 @@ background-color: #97d0a3;
 }
 
 /* End of green div */
+/* Start of white Div section four */
 .four{
 background-color: #f0f0f0;
 }
+.secfourtop{
+background-color: #e8eae9;
+text-align: center;
+}
+.secfourbtm{
+  background-color: #fbffff;
+}
+/* End white Div section four */
+/* Start Pink Div section five */
 .five{
 background-color:#dfb4c5;
 }
+/* End pink Div section five */
 .six{
 background-color:#b5d5e2;
 }
