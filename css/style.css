@@ -1,0 +1,31 @@
+div{
+  height: 300px;
+}
+li{
+  list-style-type: none;
+  display: inline-block;
+}
+/* .inone{
+  background-color: black;
+} */
+.one{
+background-color: #a3cfd8;
+}
+.two{
+background-color: #ffffff;
+}
+.three{
+background-color: #97d0a3;
+}
+.four{
+background-color: #f0f0f0;
+}
+.five{
+background-color:#dfb4c5;
+}
+.six{
+background-color:#b5d5e2;
+}
+.seven{
+background-color:#3b3b3b;
+}
