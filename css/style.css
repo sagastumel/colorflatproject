@@ -2,9 +2,9 @@ body{
   background-color: #434343;
   font-family: 'Sigmar One', cursive;
 }
-div{
+/* div{
   height: 300px;
-}
+} */
 li{
   list-style-type: none;
   text-align: center;
@@ -73,9 +73,40 @@ width: 100px;
 padding: 10px;
 }
 /* End of the white Div */
+/* Div contaning the grren div */
+div.container.three{
+  height: auto;
+}
+div.col-4{
+  height: auto;
+  width: 150px;
+}
 .three{
 background-color: #97d0a3;
 }
+.sectionthreetop{
+  height: auto;
+  text-align: center;
+}
+.sectiongthreecl{
+  text-align: center;
+}
+.sectionthreeul{
+  height: auto;
+}
+.sectionthreebottom{
+  text-align: center;
+}
+.divbuttonthree{
+  padding: 5px;
+  margin: 50px;
+  border-radius: 10%;
+  border: 2px solid #9ad3a6;
+  background-color: #fffefa;
+  color: #bdbec0;
+}
+
+/* End of green div */
 .four{
 background-color: #f0f0f0;
 }
