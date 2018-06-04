@@ -1,19 +1,78 @@
+body{
+  background-color: #434343;
+  font-family: 'Sigmar One', cursive;
+}
 div{
   height: 300px;
 }
 li{
   list-style-type: none;
+  text-align: center;
   display: inline-block;
+  font-size: 10px;
+  border-radius: 10%;
+  padding-top: 5px;
+}
+li:hover {
+  background-color: #3c3c3c;
+  color:white;
+}
+img{
+  height: 150px;
+  width: 150px;
+}
+div.container{
+  height: auto;
 }
 /* .inone{
   background-color: black;
 } */
+/* Div containing the Navigation blue colored */
+.sectiononeh1{
+  font-size: 1em;
+}
 .one{
 background-color: #a3cfd8;
+}
+.sectionone{
+  text-align: center;
+  height: auto;
+}
+.circle{
+  display: inline-block;
+  background-color: white;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+.sectioneone-bottom{
+  text-align: center;
+}
+.c-two,
+.c-three{
+  background-color: #a3cfd8;
+  border: 1px solid white;
+}
+/* End of Blue colored Div */
+/* Div contaning white Div */
+h2{
+  font-size: 14px;
+}
+p{
+font-size: 10px;
 }
 .two{
 background-color: #ffffff;
 }
+.sectiontwo{
+  text-align: center;
+}
+.imgtwo{
+height: 100px;
+width: 100px;
+padding: 10px;
+}
+/* End of the white Div */
 .three{
 background-color: #97d0a3;
 }

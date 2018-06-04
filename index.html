@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Modak" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -11,7 +12,8 @@
     <div class="container one">
         <nav class="container inone">
             <ul class="row">
-                <li class="col-2"><i class="fas fa-heart"> COLORFUL FLAT</i></li>
+              <!-- TODO: Make sur eto make the ColorFlat section stay to the left while make the other list items more to the right. -->
+                <li class="col-2"><i class="fas fa-heart"> <a href="#">COLORFUL FLAT</a></i></li>
                 <li class="col-2"><a href="#">Home</a></li>
                 <li class="col-2"><a href="#">Services</a></li>
                 <li class="col-2"><a href="#">Portfolio</a></li>
@@ -20,18 +22,39 @@
             </ul>
         </nav>
         <div class="container">
-          <div class="rod">
-            <div class="col-6">
-              <h1>THIS TEMPALTE IS AWESOME</h1>
+          <div class="row"> <!-- TODO: Try to make the col-6 to become smaller so that the dont make the blue colored div any bigger. -->
+            <div class="col-6 sectionone">
+              <h1 class="sectiononeh1">THIS TEMPALTE <br>IS AWESOME</h1>
             </div>
-            <div class="col-6">
-
+            <div class="col-6 sectionone">
+              <img src="img/imac.png" alt="Imac Computer monitor.">
             </div>
           </div>
         </div>
+        <div class="container sectioneone-bottom">
+          <div class="circle c-one"></div>
+          <div class="circle c-two"></div>
+          <div class="circle c-three"></div>
+        </div>
     </div>
     <div class="container two">
-
+      <div class="container">
+        <div class="row">
+          <!-- TODO: Try to change the Col-4 on th elist items to be able to center them closer to each other. Try giving them an offset. -->
+          <div class="col-4 sectiontwo"><img class="imgtwo" src="img/imacphone.png" alt="IMac and Iphone.">
+            <h2>Flat Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           </div>
+          <div class="col-4 sectiontwo"><img class="imgtwo" src="img/Idea.png" alt="Idea lightbulb.">
+          <h2>Great Ideas</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-4 sectiontwo"><img class="imgtwo" src="img/macwindow.png" alt="Apple open window.">
+          <h2>Browser Compatibility</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="container three">
 
