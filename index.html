@@ -14,21 +14,27 @@
         <nav class="container inone">
             <ul class="row">
               <!-- TODO: Make sur eto make the ColorFlat section stay to the left while make the other list items more to the right. -->
-                <li class="col-2"><i class="fas fa-heart"> <a href="#">COLORFUL FLAT</a></i></li>
-                <li class="col-2"><a href="#">Home</a></li>
-                <li class="col-2"><a href="#">Services</a></li>
-                <li class="col-2"><a href="#">Portfolio</a></li>
-                <li class="col-2"><a href="#">Blog</a></li>
-                <li class="col-2"><a href="#">Contact</a></li>
+                <li class="col-3 seconeli" ><i class="fas fa-heart"> <a class="seconeanchor" href="#">COLORFUL FLAT</a></i></li>
+                <li class="col-1 offset-3 seconeli"><a class="seconeanchor" href="#">Home</a></li>
+                <li class="col-1 seconeli"><a  class="seconeanchor" href="#">Services</a></li>
+                <li class="col-1 seconeli"><a class="seconeanchor" href="#">Portfolio</a></li>
+                <li class="col-1 seconeli"><a class="seconeanchor" href="#">Blog</a></li>
+                <li class="col-1 seconeli"><a class="seconeanchor" href="#">Contact</a></li>
             </ul>
         </nav>
         <div class="container">
           <div class="row"> <!-- TODO: Try to make the col-6 to become smaller so that the dont make the blue colored div any bigger. -->
-            <div class="col-6 sectionone">
+            <div class="col-2">
+
+            </div>
+            <div class="col-4 sectionone">
               <h1 class="sectiononeh1">THIS TEMPALTE <br>IS AWESOME</h1>
             </div>
-            <div class="col-6 sectionone">
+            <div class="col-4 sectionone">
               <img src="img/imac.png" alt="Imac Computer monitor.">
+            </div>
+            <div class="col-2">
+
             </div>
           </div>
         </div>
@@ -63,8 +69,8 @@
         <p>This is just a small sentence to be able to fill in the space because lorem give me to much to work with.. :)</p>
       </div>
     <div class="container sectionthreecl">
-      <div class="row sectionthreeul">
-        <ul>
+      <div class="sectionthreeul">
+        <ul class="mainsecthreeul">
           <li>ALL</li>
           <li>WEB</li>
           <li>MOBILE</li>
@@ -76,22 +82,22 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-4">
+        <div class=" midcntr col-4">
           <img src="img/birdone.png" alt="Bird Picture">
         </div>
-        <div class="col-4">
+        <div class="midcntr col-4">
           <img src="img/birdtwo.png" alt="Bird Picture">
         </div>
-        <div class="col-4">
+        <div class="midcntr col-4">
           <img src="img/birdthree.png" alt="Bird Picture">
         </div>
-        <div class="col-4">
+        <div class="midcntr col-4">
           <img src="img/birdfour.png" alt="Bird Picture">
         </div>
-        <div class="col-4">
+        <div class="midcntr col-4">
           <img src="img/birdfive.png" alt="Bird Picture">
         </div>
-        <div class="col-4">
+        <div class="midcntr col-4">
           <img src="img/birdsix.png" alt="Bird Picture">
         </div>
       </div>
@@ -126,7 +132,7 @@
     </div>
     <div class="container five">
       <div class="container">
-        <div class="">
+        <div class="secfiveh1p">
           <h1>MEET OUR TEAM</h1>
           <p>I'm a so developer trying his best to become better and better at this. I most recently found out on how bootstrap affects classes. SO if for whatever you think the amount of containing divs i have all i will say is that i only recently found out how it is affected.</p>
         </div>
@@ -175,7 +181,7 @@
     </div>
     <div class="container six">
       <div class="container">
-        <div class="">
+        <div class="secsixh1p">
           <h1>RECENTS POSTS</h1>
           <p>Small amount of text to help take up space for this section of my project. Also on this day 6/4/2018 GitHub and Microsoft announced that they will be merging toghether. I have not been long with GitHub so i cant say much but from what i've seen there are not a lot of people that are happy about it. I'll just keep on watching to see how it goes. Let's pray for the best.</p>
         </div>
@@ -221,10 +227,37 @@
       </div>
     </div>
     <div class="container seven">
+      <div class="container">
+        <h1 class="sevenh1">CONTACT US</h1>
+        <p class="sevenp">Ramdom dummy text to help fill out the last bit of text <br> needed for the contact us description.</p>
+      </div>
+        <div class="container">
+          <div class="inputone">
+          <input type="text" name="" value="" placeholder="Name:">
+        </div>
+        <div class="inputtwo">
+          <input type="text" name="" value="" placeholder="Email:">
+        </div>
+        <div class="inputthree">
+          <input class="maininputthree"type="text" name="" value="" placeholder="Message:">
+        </div>
+      </div>
+      <div class="sectionsevenbtn">
+        <button type="button" name="button">SHOW MORE</button>
+      </div>
 
+    <div class="container">
+      <footer>
+        <ul class="row sectionsevenul">
+          <li class="col-1 sevenftr"><i class="fab fa-facebook-square fa-2x"></i></li>
+          <li class="col-1 sevenftr"><i class="fab fa-twitter fa-2x"></i></li>
+          <li class="col-1 sevenftr"><i class="fab fa-html5 fa-2x"></i></li>
+          <li class="col-1 sevenftr"><i class="fab fa-github fa-2x"></i></li>
+          <li class="col-5 offset-2 lowestftr" >CodeWithLuisCopiright &#169; | Powered By My Brain</li>
+        </ul>
+      </footer>
     </div>
-
-
+  </div>
 
   </body>
 </html>

@@ -29,7 +29,14 @@ div.container{
 } */
 /* Div containing the Navigation blue colored */
 .sectiononeh1{
-  font-size: 1em;
+  font-size: 2em;
+}
+.seconeanchor:link {
+  color: #444444;
+}
+.seconeanchor:hover{
+  background-color:#334746;
+  color: transparent;
 }
 .one{
 background-color: #a3cfd8;
@@ -55,9 +62,9 @@ background-color: #a3cfd8;
 }
 /* End of Blue colored Div */
 /* Div contaning white Div */
-h2{
+/* h2{
   font-size: 14px;
-}
+} */
 p{
 font-size: 10px;
 }
@@ -83,12 +90,26 @@ background-color: #97d0a3;
 .sectionthreetop{
   height: auto;
   text-align: center;
+  color: white;
+}
+div.col-4{
+
 }
 .sectiongthreecl{
   text-align: center;
 }
 .sectionthreeul{
   height: auto;
+}
+.mainsecthreeul{
+  text-align: center;
+}
+.mainsecthreeul li{
+  padding: 10px;
+  color: white;
+}
+.midcntr{
+  text-align: center;
 }
 .sectionthreebottom{
   text-align: center;
@@ -119,6 +140,10 @@ text-align: center;
 .five{
 background-color:#dfb4c5;
 }
+.secfiveh1p{
+  text-align: center;
+  color: white;
+}
 /* End pink Div section five */
 /* Start of lightblue div container  */
 .six{
@@ -134,16 +159,48 @@ background-color:#b5d5e2;
 }
 .secsixbtn{
   text-align: center;
+  padding: 15px;
   /* TODO: Give the button a border-radius to make a bit more rounded. Accidently added it to the Div. */
   border-radius: 10%;
+}
+.secsixh1p{
+  text-align: center;
+  color: white;
 }
 /* End of Lightblue div container */
 /* Start of final Div color black  */
 .seven{
 background-color:#3b3b3b;
 }
+.sevenh1{
+  text-align: center;
+  color: #fbffff
+}
+.sevenp{
+  text-align: center;
+  color: #fbffff
+}
+.inputone,
+.inputtwo,
+.inputthree{
+  text-align: center;
+  padding: 5px;
+}
+.maininputthree{
+  height: 100px;
+}
+.sectionsevenbtn{
+  text-align: center;
+  padding: 15px;
+}
+.sectionsevenul{
+  text-align: center;
+  border-top: 2px solid black;
+}
 /* End of final black div */
 /* Start of footer */
-
+.lowestftr{
+  padding: 10px;
+}
 
 /* End of the footer of the page */
